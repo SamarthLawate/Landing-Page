@@ -1,0 +1,238 @@
+This is css file
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+}
+section{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+section a{
+    color: white;
+}
+
+.logo a{
+    position: relative;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 70px;
+    font-weight: 700;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 0px 560px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 30px;
+}
+a:hover{
+  
+    color: rgb(20 190 255);
+    border-radius: 50px;
+
+}
+section.info{
+    position: relative;
+    margin-top: 125px;
+    margin-left: 100px;
+}
+section .text1{
+    color: honeydew;
+    font-size: 34px;
+}
+section .text1 span{
+  
+    color: rgb(20 190 255);
+    font-size: 48px;
+}
+section .text2{
+    color: honeydew;
+    font-size: 34px;
+    margin-top: 70px;
+    margin-left: -598px;
+}
+section .text2 span{
+    color: rgb(180 237 250);
+    font-size: 47px;
+}
+
+section .para{
+    position: absolute;
+    margin-top: 141px;
+    color: honeydew;
+    font-size: 24px;
+    height: 200px;
+    width: 700px;
+}
+section .btn{
+    position: absolute;
+    margin-top: 365px;
+}
+.btn button{
+    width: 145px;
+    height: 50px;
+    font-size: 25px;
+    background: red;
+    color: white;
+    border: solid red;
+    border-radius: 10px;
+}
+
+.btn button:hover{
+    background-color: rgb(180, 12, 12);
+}
+
+.login{
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: -175px;
+    border: solid;
+    width: 400px;
+    height: 470px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    font-family: sans-serif;
+}
+.form h3{
+    font-size: 20px;
+    padding: 15px 2px;
+    width: 100%;
+    margin-left: 38px;
+    color: #e92424;
+}
+.form input{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: solid whitesmoke;
+    font-size: 20px;
+    height: 45px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.form button{
+    margin-left: 55px;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #600154;
+    border: solid #600154;
+}
+.login button :hover{
+    background-color: violet;
+}
+.form h4{
+    font-size: 20px;
+    padding: 15px 2px;
+    width: 100%;
+    margin-left: 106px;
+    color: #f1f1f1;
+}
+.form h4 span{
+    color: #e92424;
+}
+.mainbox{
+    display: flex;
+    margin-left: 47px;
+    margin-top: 15px;
+    justify-content: center;
+    width: 76%;
+    height: 10%;
+    border-radius: 10px;
+}
+.mainbox .box1{
+    background-color: #600154;
+    padding: 10px 30px;
+    width: 116px;
+    border-radius: 8px;
+}
+.mainbox .box2{
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 8px;
+    width: 125px;
+}
+
+
+@media (max-width:820px){
+    body{
+        height: 155vh;
+    }
+    .navbar ul {
+        margin: 0px 13px;
+    }
+    section.info {
+        position: relative;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    section .text1 span {
+        color: rgb(20 190 255);
+        font-size: 30px;
+    }
+    section .text1 {
+        color: honeydew;
+        font-size: 24px;
+    }
+    section .text2 {
+        color: honeydew;
+        font-size: 22px;
+        margin-top: 39px;
+        margin-left: -382px;
+    }
+    section .text2 span {
+        color: rgb(180 237 250);
+        font-size: 30px;
+    }
+    section .para {
+        font-size: 16px;
+        height: 154px;
+        width: 380px;
+        margin-top: 77px;
+    }
+    section .btn {
+        position: absolute;
+        margin-top: 210px;
+    }
+    .btn button {
+        width: 88px;
+        height: 32px;
+        font-size: 15px;
+        background: red;
+        color: white;
+        border: solid red;
+        border-radius: 10px;
+    }
+    .login{
+        margin-left: 80px;
+        margin-top: 152px;
+    }
+}
